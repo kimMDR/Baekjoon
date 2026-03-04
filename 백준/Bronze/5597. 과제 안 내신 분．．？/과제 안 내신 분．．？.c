@@ -8,9 +8,10 @@ int main() {
         arr[n-1]++;
     }
 
-    for(int b = 0; b < 30; b++) {
-        if(!arr[b]) {
-            printf("%d\n", b+1);
+    for(int a = 0; a < 30; a++) {
+        if(!arr[a]) {
+            printf("%d\n", a+1);
         }
     }
+
 }
